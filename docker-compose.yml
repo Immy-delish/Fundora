@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: loan_management_db
+      POSTGRES_USER: loan_user
+      POSTGRES_PASSWORD: secure_password
+    ports:
+      - "5432:5432"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_NAME: loan_management_db
+      DATABASE_USER: loan_user
+      DATABASE_PASSWORD: secure_password
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
