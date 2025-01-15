@@ -1,0 +1,171 @@
+/* General styles */
+.SignIn {
+    width: 1440px;
+    height: 964px;
+    position: relative;
+    background: #F1F5F9;
+}
+
+.Rectangle133 {
+    width: 1920px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #FFFBFB;
+}
+
+.StHeader {
+    width: 974px;
+    height: 664px;
+    left: 473px;
+    top: 208px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 55px;
+    border: 1px solid #E5E5E5;
+}
+
+.SignInToIcargoPacific {
+    width: 773px;
+    height: 63px;
+    left: 572px;
+    top: 263px;
+    position: absolute;
+    text-align: center;
+}
+
+.main-text {
+    color: #242222;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.highlight-text {
+    color: #0ee9a0e3;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.Password,
+.Email {
+    width: 223px;
+    height: 23px;
+    position: absolute;
+    color: #707070;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Password {
+    left: 604px;
+    top: 491px;
+}
+
+.Email {
+    left: 604px;
+    top: 365px;
+}
+
+.Rectangle50,
+.Rectangle134 {
+    width: 734px;
+    height: 79px;
+    position: absolute;
+    background: rgba(14, 165, 233, 0.08);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Rectangle50 {
+    left: 592px;
+    top: 527px;
+}
+
+.Rectangle134 {
+    left: 592px;
+    top: 400px;
+}
+
+.ForgotPassword {
+    width: 248px;
+    height: 23px;
+    left: 1102px;
+    top: 635px;
+    position: absolute;
+    color: #0EA5E9;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DonTHaveAnAccountYetSignUpNow {
+    width: 527px;
+    height: 23px;
+    left: 592px;
+    top: 803px;
+    position: absolute;
+}
+
+.sub-text {
+    color: #52585F;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.link-text {
+    color: #0EA5E9;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.Rectangle46,
+.Rectangle47 {
+    width: 177px;
+    height: 68px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Rectangle46 {
+    left: 983px;
+    top: 706px;
+    background: #0EA5E9;
+}
+
+.Rectangle47 {
+    left: 760px;
+    top: 706px;
+    background: white;
+}
+
+.SignInButton,
+.BackButton {
+    width: 164px;
+    height: 42px;
+    position: absolute;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.SignInButton {
+    left: 1020px;
+    top: 719px;
+    color: white;
+}
+
+.BackButton {
+    left: 814px;
+    top: 719px;
+    color: #988282;
+}
