@@ -18,7 +18,14 @@ from django.contrib import admin
 from django.urls import path
 from . import views 
 
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('', views.home),
+# ]
+
 urlpatterns = [
+    path('', views.sign_in, name='sign_in'),  # Sign In page
+    path('dashboard/', views.dashboard, name='dashboard'),  # Dashboard page
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('add-client/', views.add_client, name='add_client'),  # Add New Client page
 ]
